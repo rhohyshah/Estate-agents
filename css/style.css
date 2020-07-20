@@ -1,0 +1,602 @@
+html,
+body {
+  height: 100%;
+  background-color: #fff !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  color: #05668D;
+  margin-bottom: 20px;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+}
+
+span {
+  color: #05668D;
+  font-weight: 700;
+}
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+input.form-control {
+  width: 600px !important;
+  border: none;
+}
+
+.text-mute {
+  color: red;
+  text-transform: uppercase;
+}
+
+.card {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.card img {
+  height: 250px;
+  border-radius: 0;
+}
+
+.title {
+  background-color: #05668D;
+  margin-top: 50px;
+  padding: 100px;
+}
+
+.title h1 {
+  color: #fff;
+}
+
+.card:hover {
+  border-top: 5px solid #679436;
+  border-bottom: 5px solid #679436;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.header2 {
+  background-color: #fff;
+  position: relative;
+  top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.header2 form {
+  display: block;
+  position: relative;
+}
+
+.header2 .fa-stack {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 50%;
+}
+
+.header2 a:hover {
+  text-decoration: none;
+}
+
+.header2 .fa-stack:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.header2 .fa-circle:hover {
+  color: #fff;
+}
+
+.header2 .circle-green {
+  color: #9FC131;
+}
+
+.header2 .circle-lb {
+  color: #427AA1;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #427AA1;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #05668D;
+}
+
+.navbar .navbar-nav .dropdown-item {
+  color: #427AA1;
+}
+
+.navbar .navbar-nav .dropdown-item:hover {
+  color: #fff;
+  background-color: #9FC131;
+}
+
+.btn-general {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.btn-solid {
+  color: #fff;
+  background-color: #679436;
+}
+
+.btn-solid:hover {
+  color: #fff;
+  background-color: #05668D;
+  text-decoration: none;
+}
+
+.btn-outline {
+  color: #427AA1;
+  background-color: transparent;
+  border: 1px solid #05668D;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #05668D;
+  text-decoration: none;
+}
+
+.btn-underline {
+  color: #05668D;
+  text-decoration: underline;
+}
+
+.btn-underline:hover {
+  color: #9FC131;
+}
+
+.home .home-cover {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/home-house.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.home .heading {
+  position: relative;
+  top: 180px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+
+.home h1 {
+  color: #05668D;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home h4 {
+  color: #427AA1;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.about .background {
+  position: relative;
+  top: -20px;
+  margin-bottom: 20px;
+}
+
+.success-stories {
+  margin-bottom: 40px;
+}
+
+.team {
+  margin-bottom: 40px;
+}
+
+.team img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.team .row {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.team p {
+  margin: 1px;
+}
+
+footer {
+  margin: 0;
+  background-color: #427AA1;
+  padding-top: 30px;
+}
+
+footer .google-map {
+  margin-top: 10px;
+}
+
+footer .col-md-2 {
+  margin-top: 10px;
+}
+
+footer h5 {
+  color: #fff;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+}
+
+footer ul a {
+  color: #fff;
+  font-weight: 300;
+}
+
+footer ul a:hover {
+  color: #9FC131;
+  text-decoration: none;
+}
+
+footer .copyright {
+  background-color: #05668D;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+footer .copyright p, footer .copyright a {
+  color: #fff;
+}
+
+footer .copyright a:hover {
+  color: #9FC131;
+}
+
+.buying .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.buying .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.buying .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.selling .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.selling .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.selling .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.renting .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.renting .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.renting .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.lettings .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.lettings .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.lettings .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mortgage .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.mortgage .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.mortgage .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.conveyencing .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.conveyencing .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.conveyencing .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.auctions .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.auctions .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.auctions .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.surveys .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.surveys .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.surveys .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.land-homes .background {
+  margin: 30px;
+  padding-top: 80px;
+}
+
+.land-homes .card {
+  border: 1px solid #9FC131;
+  border-radius: 0;
+  height: 150px;
+}
+
+.land-homes .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.branches {
+  margin: 70px 0;
+  background-color: #fff;
+}
+
+.branches .card {
+  margin: 10px;
+  border-top: 5px solid #679436;
+  border-bottom: 5px solid #679436;
+  -webkit-transition: none;
+  transition: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.branches .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jobs .card {
+  margin: 10px 0;
+  border: none;
+}
+
+.jobs .card img {
+  float: left;
+}
+
+.jobs .card .card-footer {
+  background-color: #679436;
+  border: none;
+  color: #fff !important;
+}
+
+.jobs .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.signup {
+  margin: 120px 0;
+}
+
+.signup input.form-control {
+  border: 1px solid lightgrey;
+}
+
+.signup .btn-facebook {
+  background-color: #405D9D;
+  color: #fff;
+}
+
+.signup .btn-twitter {
+  background-color: #42AEEC;
+  color: #fff;
+}
+
+.properties .card {
+  border-radius: 0;
+}
+
+.properties .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+.properties .property-search {
+  margin-top: 40px;
+}
+
+.saved .card {
+  border-radius: 0;
+  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.saved .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+.details {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.details .card {
+  border-radius: 0;
+}
+
+.details .card:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid lightgray;
+}
+
+.profile input.form-control {
+  width: 500px !important;
+  border: 1px solid lightgray;
+}
+
+.delete-account input.form-control {
+  width: 500px !important;
+  border: 1px solid lightgray;
+}
+
+.change-email input.form-control {
+  width: 500px !important;
+  border: 1px solid lightgray;
+}
+
+.contact-us input.form-control {
+  width: 500px !important;
+  border: 1px solid lightgray;
+}
+
+.modal h5 {
+  width: 100%;
+  text-align: center;
+}
+
+.modal input.form-control {
+  width: 100% !important;
+  border: 1px solid lightgrey !important;
+}
+/*# sourceMappingURL=style.css.map */

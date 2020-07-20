@@ -1,0 +1,675 @@
+// colors
+$androidGreen: #9FC131;
+$seaBlue: #05668D;
+$queenBlue: #427AA1;
+$anti-flashWhite: #fff;
+$maximumGreen: #679436;
+$transparent: rgba(255, 255, 255, 0.7);
+
+html,
+body {
+    height: 100%;
+    background-color: $anti-flashWhite !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h3 {
+    color: $seaBlue;
+    margin-bottom: 20px;
+}
+
+.background {
+    background-color: $transparent;
+    padding: 50px;
+
+}
+
+span {
+    color: $seaBlue;
+    font-weight: 700;
+}
+
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input.form-control {
+    width: 600px !important;
+    border: none;
+
+}
+
+.text-mute {
+    color: red;
+    text-transform: uppercase;
+
+
+}
+
+.card {
+    transition: 0.5s ease;
+
+    img {
+        height: 250px;
+        border-radius: 0;
+    }
+
+
+}
+
+.title {
+    background-color: $seaBlue;
+    margin-top: 50px;
+    padding: 100px;
+
+    h1 {
+        color: $anti-flashWhite;
+    }
+}
+
+.card:hover {
+    border-top: 5px solid $maximumGreen;
+    border-bottom: 5px solid $maximumGreen;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+// header2
+.header2 {
+    background-color: $anti-flashWhite;
+    position: relative;
+    top: 60px;
+    align-items: center;
+    padding: 20px;
+
+    form {
+        display: block;
+        position: relative;
+    }
+
+    .fa-stack {
+        transition: 0.5s ease;
+        border-radius: 50%;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .fa-stack:hover {
+        transform: scale(1.5);
+    }
+
+    .fa-circle:hover {
+        color: $anti-flashWhite;
+    }
+
+    .circle-green {
+        color: $androidGreen;
+    }
+
+    .circle-lb {
+        color: $queenBlue;
+    }
+
+}
+
+// nav
+
+.navbar {
+    background-color: $anti-flashWhite;
+
+    .navbar-nav {
+        .nav-link {
+            color: $queenBlue;
+        }
+
+        .nav-link:hover {
+            color: $seaBlue;
+        }
+
+        .dropdown-item {
+            color: $queenBlue;
+        }
+
+        .dropdown-item:hover {
+            color: $anti-flashWhite;
+            background-color: $androidGreen;
+        }
+    }
+}
+
+// buttons 
+.btn-general {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-solid {
+    color: #fff;
+    background-color: $maximumGreen;
+}
+
+.btn-solid:hover {
+    color: #fff;
+    background-color: $seaBlue;
+    text-decoration: none;
+}
+
+.btn-outline {
+    color: $queenBlue;
+    background-color: transparent;
+    border: 1px solid $seaBlue;
+}
+
+.btn-outline:hover {
+    color: $anti-flashWhite;
+    background-color: $seaBlue;
+    text-decoration: none;
+}
+
+.btn-underline {
+    color: $seaBlue;
+    text-decoration: underline;
+
+}
+
+.btn-underline:hover {
+    color: $androidGreen;
+}
+
+// home
+.home {
+    .home-cover {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/home-house.jpg");
+
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .heading {
+        position: relative;
+        top: 180px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+
+    }
+
+    h1 {
+        color: $seaBlue;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+    }
+
+    h4 {
+        color: $queenBlue;
+        font-weight: 300;
+        margin-bottom: 50px;
+
+    }
+
+}
+
+// about
+.about {
+    .background {
+        position: relative;
+        top: -20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+// success stories
+.success-stories {
+    margin-bottom: 40px;
+}
+
+// team
+.team {
+    margin-bottom: 40px;
+
+    img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+
+    }
+
+    .row {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    p {
+        margin: 1px;
+    }
+
+}
+
+footer {
+    margin: 0;
+    background-color: $queenBlue;
+    padding-top: 30px;
+
+    .google-map {
+        margin-top: 10px;
+    }
+
+    .col-md-2 {
+        margin-top: 10px;
+    }
+
+    h5 {
+        color: $anti-flashWhite;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            margin: 0;
+            color: $anti-flashWhite;
+        }
+
+        a {
+            color: $anti-flashWhite;
+            font-weight: 300;
+
+        }
+
+        a:hover {
+            color: $androidGreen;
+            text-decoration: none;
+        }
+    }
+
+    .copyright {
+        background-color: $seaBlue;
+        margin-top: 10px;
+        padding-top: 5px;
+
+        p, a {
+            color: $anti-flashWhite;
+        }
+        a:hover{
+            color: $androidGreen;
+        }
+    }
+
+}
+
+// buying 
+.buying {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// selling
+.selling {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// renting
+.renting {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// lettings
+.lettings {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// mortgage
+.mortgage {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// conveyencing
+.conveyencing {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// auctions
+.auctions {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// surveys
+.surveys {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// land and new homes
+.land-homes {
+
+    .background {
+        margin: 30px;
+        padding-top: 80px;
+    }
+
+    .card {
+        border: 1px solid $androidGreen;
+        border-radius: 0;
+        height: 150px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// branches
+.branches {
+    margin: 70px 0;
+    background-color: $anti-flashWhite;
+
+    .card {
+        margin: 10px;
+        border-top: 5px solid $maximumGreen;
+        border-bottom: 5px solid $maximumGreen;
+        transition: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+// jobs
+.jobs {
+    .card {
+        margin: 10px 0;
+        border: none;
+
+        img {
+            float: left;
+
+        }
+
+        .card-footer {
+            background-color: $maximumGreen;
+            border: none;
+            color: $anti-flashWhite !important;
+        }
+
+    }
+
+    .card:hover {
+        transform: none;
+        border: none;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.signup {
+    margin: 120px 0;
+
+
+    input.form-control {
+        border: 1px solid lightgrey;
+    }
+
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+    }
+
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+    }
+}
+// property search
+.properties {
+    .card {
+        border-radius: 0;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+        border: 1px solid lightgray;
+    }
+    .property-search{
+        margin-top: 40px;
+    }
+}
+// saved
+.saved {
+
+    .card {
+        border-radius: 0;
+        margin:10px 0 ;
+        margin-bottom: 10px;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+        border: 1px solid lightgray;
+    }
+}
+// proerty details
+.details{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .card {
+        border-radius: 0;
+
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+        border: 1px solid lightgray;
+    }
+}
+// my profile
+.profile{
+    input.form-control {
+        width: 500px !important;
+        border: 1px solid lightgray;
+    
+    }
+}
+// delete account
+.delete-account{
+    input.form-control {
+        width: 500px !important;
+        border: 1px solid lightgray;
+    
+    }
+}
+// change email
+.change-email{
+    input.form-control {
+        width: 500px !important;
+        border: 1px solid lightgray;
+    
+    }
+}
+// contact-us
+.contact-us{
+    input.form-control {
+        width: 500px !important;
+        border: 1px solid lightgray;
+    
+    }
+}
+// modal
+.modal{
+    h5{
+        width: 100%;
+        text-align: center;
+    }
+    input.form-control{
+        width: 100% !important;
+        border: 1px solid lightgrey !important;
+    }
+    
+}
